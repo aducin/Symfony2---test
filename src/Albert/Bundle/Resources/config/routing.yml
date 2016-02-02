@@ -1,0 +1,7 @@
+albert_homepage:
+    path:     /
+    defaults: { _controller: AlbertBundle:Default:index }
+    
+albert_hello:    
+    path:     /{name}
+    defaults: { _controller: AlbertBundle:Default:sayHello }

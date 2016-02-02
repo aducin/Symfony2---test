@@ -16,4 +16,11 @@ class DefaultController extends Controller
     {
         return new Response('<html><body>Hello '.$name.'!</body></html>');
     }
+    
+    public function checkTwigAction($name)
+    {
+        return $this->render('AlbertBundle:Default:firstTwig.html.twig', array(
+				'name' => $name,
+			));
+    }
 }

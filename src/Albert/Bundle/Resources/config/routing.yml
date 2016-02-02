@@ -5,3 +5,7 @@ albert_homepage:
 albert_hello:    
     path:     /{name}
     defaults: { _controller: AlbertBundle:Default:sayHello }
+    
+albert_check_Twig:    
+    path:     /Twig/{name}
+    defaults: { _controller: AlbertBundle:Default:checkTwig }
